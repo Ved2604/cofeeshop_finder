@@ -17,7 +17,7 @@ const App = () => {
           <Route path="/shops/:id/map" element={<MapView />} />
           <Route path="/gift-card" element={<GiftCard />} />
           <Route path="/success" element={<Success />} />
-          <Route path="cancel" element={<Cancel />} />
+          <Route path="/cancel" element={<Cancel />} />
         </Routes>
       </div>
     </Router>
