@@ -36,7 +36,7 @@ const CoffeeApp = () => {
   useEffect(() => {
     const fetchShops = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/shops');
+        const response = await axios.get('https://cofeeshopbackend.vercel.app/api/shops');
         setShops(response.data);
         setFilteredShops(response.data);
         setLoading(false);

@@ -29,10 +29,10 @@ const ShopDetail = () => {
   useEffect(() => {
     const fetchShopAndMenu = async () => {
       try {
-        const shopResponse = await axios.get(`http://localhost:5000/api/shops/${id}`);
+        const shopResponse = await axios.get(`https://cofeeshopbackend.vercel.app/api/shops/${id}`);
         setShop(shopResponse.data);
 
-        const menuResponse = await axios.get('http://localhost:5000/api/products');
+        const menuResponse = await axios.get('https://cofeeshopbackend.vercel.app/api/products');
         setMenu(menuResponse.data);
 
         setLoading(false);

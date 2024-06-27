@@ -16,7 +16,7 @@ const GiftCard = () => {
     setError(null);
 
     try {
-      const { data } = await axios.post('http://localhost:5000/api/stripe/create-checkout-session', {
+      const { data } = await axios.post('https://cofeeshopbackend.vercel.app/api/stripe/create-checkout-session', {
         amount: amount,
       });
       
