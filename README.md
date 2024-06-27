@@ -1,8 +1,3 @@
-# React + Vite
+This a React+Node js project for a coffee shop finder app. It helps users find coffee shops and locate them on maps, and purchase gift cards to avail discounts.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Since this is a side project while purchasing gift cards please don't enter your real credit card numbers. instead, use 4242 4242 4242. 
